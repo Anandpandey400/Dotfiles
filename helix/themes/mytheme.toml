@@ -1,5 +1,0 @@
-inherits = "onedark"  # or any base theme to inherit from
-
-"keyword" = { fg = "magenta" }
-"function" = { fg = "green" }
-"string" = { fg = "yellow" }
