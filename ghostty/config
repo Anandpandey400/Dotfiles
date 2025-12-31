@@ -1,0 +1,26 @@
+# -------------------------
+#   Valid Ghostty Config
+# -------------------------
+
+## Theme And font
+theme = catppuccin-mocha.conf
+font-family = JetBrains Mono
+font-size = 18
+cursor-style = bar
+
+##WIndow
+window-padding-x = 6
+window-padding-y = 6
+cursor-style = block
+background-opacity = 0.92
+copy-on-select = true
+window-decoration = client
+window-show-tab-bar = never
+
+## key binds
+keybind = ctrl+v=paste_from_clipboard
+keybind = performable:ctrl+c=copy_to_clipboard
+
+
+
+

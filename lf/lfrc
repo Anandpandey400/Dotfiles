@@ -1,0 +1,37 @@
+# Basic Settings
+set filesep " " 
+set icons true
+set drawbox true 
+map . set hidden!
+
+
+#MAPPING
+map <enter> shell
+map <delete> delete
+map I $less %f%
+map p paste
+map x cut
+map c copy
+map <c-d> half-down
+map R reload
+map r push :rename<space>
+map s push &start.<enter>
+
+
+#making diirectory
+map + push :mkdir<space>
+cmd mkdir $mkdir $*
+map t push :touch<space>
+cmd touch $touch
+map J push :filter<enter>
+map D cd ~/downloads
+map Y %echo %fx% | clip
+
+
+
+
+
+
+
+
+
