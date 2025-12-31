@@ -1,0 +1,3 @@
+binds {
+    Alt+F4 hotkey-overlay-title="Power Menu: Open" { spawn "dms" "ipc" "call" "powermenu" "open"; }
+}
